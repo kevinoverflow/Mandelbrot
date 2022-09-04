@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except the following
+!.gitignore
+!CMakeLists.txt
+
+!sources/
+!sources/**
