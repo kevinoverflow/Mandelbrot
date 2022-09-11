@@ -17,7 +17,7 @@ FetchContent_MakeAvailable(glfw)
 FetchContent_MakeAvailable(glad)
 
 # Setup resources
-set(RESOURCE_FILES
+file(GLOB RESOURCE_FILES
     "resources/FragmentShader.fs"
     "resources/VertexShader.vs"
 )
